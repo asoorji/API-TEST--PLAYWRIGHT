@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ui:test": "playwright test",
+    "api:test": "playwright test",
     "pw-test": "npx playwright test --reporter=html",
     "pw-report": "npx playwright show-report"
   },

@@ -1,4 +1,4 @@
-name: UI Playwright Tests
+name: API Playwright Tests
 on:
   push:
     branches: [ main]
@@ -17,7 +17,7 @@ jobs:
           node-version: 18
       - name: Install dependencies
         run: npm install
-      - name: ui playwright tests
+      - name: API playwright tests
         run: npm run ui:test
         env:
           HOME: /root
