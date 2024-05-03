@@ -18,6 +18,6 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: API playwright tests
-        run: npm run ui:test
+        run: npm run api:test
         env:
           HOME: /root
