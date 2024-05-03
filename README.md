@@ -10,7 +10,7 @@ This repository contains automated API tests for the provided task.
 
 #### Clone this repository
 ```bash 
-got clone git@github.com:ekeminiudoh/API-TEST--PLAYWRIGHT.git
+git clone git@github.com:ekeminiudoh/API-TEST--PLAYWRIGHT.git
 ```
 
 #### navigate to the project directory
@@ -67,8 +67,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 - [Playwright](https://playwright.dev/)
-- [Mocha](https://mochajs.org/)
-- [Chai](https://www.chaijs.com/)
 - [GitHub CI/CD](https://docs.github.com/ee/ci/)
 - [Docker](https://www.docker.com/)
 - [Node.js](https://nodejs.org/)
