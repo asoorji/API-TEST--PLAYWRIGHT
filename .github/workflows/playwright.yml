@@ -1,0 +1,23 @@
+name: UI Playwright Tests
+on:
+  push:
+    branches: [ main]
+  pull_request:
+    branches: [ main ]
+jobs:
+  playwright:
+    name: 'API Playwright Tests'
+    runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.43.0-jammy
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Install dependencies
+        run: npm install
+      - name: ui playwright tests
+        run: npm run ui:test
+        env:
+          HOME: /root
